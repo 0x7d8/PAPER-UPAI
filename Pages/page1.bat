@@ -111,7 +111,7 @@ set /a no+=1
 cls
 if !sel! EQU 1 (
 
-echo PAPER-PCKG > app-name.tmp
+echo PAPER-PCKGS > app-name.tmp
 C:\PAPERSTUDIOS\Data\UPAI-de\appbrowseinstaller.cmd
 
 )
