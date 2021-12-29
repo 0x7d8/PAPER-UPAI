@@ -76,7 +76,7 @@ set menu1=PAKET MANGER
 set menu2=LEER        
 set menu3=LEER        
 set menu4=LEER        
-set menu5=LEER         
+set menu5=LEER        
 set menu6=LEER        
 set menu7=LEER        
 set menu8=ZURUECK     
@@ -111,6 +111,7 @@ cls
 if !sel! EQU 1 (
 
 echo PAPER-PCKG > app-name.tmp
+C:\PAPERSTUDIOS\Data\UPAI-de\appbrowseinstaller.cmd
 
 )
 if !sel! EQU 2 (
