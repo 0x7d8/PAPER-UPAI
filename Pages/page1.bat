@@ -1,5 +1,6 @@
 @echo off
 :start
+set pg=01
 title [!] %titlemain% - SEITE 1
 setlocal enabledelayedexpansion
 mode con cols=100 lines=30
