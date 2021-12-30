@@ -1,6 +1,18 @@
 @echo off
+call internet.cmd https://raw.githubusercontent.com/rotvproHD/PAPER-UPAI/main/compversion -saveTo C:\PAPERSTUDIOS\Temp\compversion.tmp
+FOR /F "delims=|" %%f in (C:\PAPERSTUDIOS\Temp\compversion.tmp) DO (
+    set ncompversion=%%f
+)
+set compversion=02
+if %ncompversion% EQU %compversion% (
+    goto download
+) else (
+    appbrowserepl.cmd
+)
 
 
+
+:download
 call internet.cmd https://raw.githubusercontent.com/rotvproHD/PAPER-UPAI/main/Pages/pageinfos -saveTo C:\PAPERSTUDIOS\Temp\pginf.tmp
 FOR /F "delims=|" %%f in (C:\PAPERSTUDIOS\Temp\pginf.tmp) DO (
 set pages=%%f
