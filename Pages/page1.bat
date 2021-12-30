@@ -46,7 +46,7 @@ exit /b
 
 :title
 echo.
-echo  %program%
+echo  PROGRAMM LISTE - SEITE 1
 echo.  
 echo. 
 exit /b
@@ -111,7 +111,8 @@ set /a no+=1
 cls
 if !sel! EQU 1 (
 
-echo PAPER-PCKGS > app-name.tmp
+set app=PAPER-PCKGS
+echo "PAPER-PCKGS" > app-name.tmp
 C:\PAPERSTUDIOS\Data\UPAI-de\appbrowseinstaller.cmd
 
 )
