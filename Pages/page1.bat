@@ -74,7 +74,7 @@ exit /b
 :setmenu
 :: set menu caption
 set menu1=PAKET MANGER
-set menu2=LEER        
+set menu2=SAEUBERER   
 set menu3=LEER        
 set menu4=LEER        
 set menu5=LEER        
@@ -118,7 +118,9 @@ C:\PAPERSTUDIOS\Data\UPAI-de\appbrowseinstaller.cmd
 )
 if !sel! EQU 2 (
 
-goto start
+set app=PAPER-TCLEANER
+echo "PAPER-TCLEANER" > app-name.tmp
+C:\PAPERSTUDIOS\Data\UPAI-de\appbrowseinstaller.cmd
 
 )
 if !sel! EQU 3 (
