@@ -158,7 +158,7 @@ if !sel! EQU 9 (
 
 if exist C:\PAPERSTUDIOS\Temp\upai-pages\pg2.bat (
 cls
-pg2.bat
+C:\PAPERSTUDIOS\Temp\upai-pages\pg2.bat
 ) else (
 goto start
 )
