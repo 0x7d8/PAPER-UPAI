@@ -147,14 +147,14 @@ goto start
 if !sel! EQU 8 (
 
 cls
-pg1.bat
+C:\PAPERSTUDIOS\Temp\upai-pages\pg1.bat
 
 )
 if !sel! EQU 9 (
 
 if exist C:\PAPERSTUDIOS\Temp\upai-pages\pg3.bat (
 cls
-pg2.bat
+C:\PAPERSTUDIOS\Temp\upai-pages\pg3.bat
 ) else (
 goto start
 )
