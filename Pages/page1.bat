@@ -115,7 +115,7 @@ set faname=PAPER-PCKGS
 set uaname=PACKAGE MANAGER
 set afpath=0
 echo "PAPER-PCKGS" > app-name.tmp
-C:\PAPERSTUDIOS\Data\UPAI-de\appbrowseinstaller.cmd
+C:\PAPERSTUDIOS\Data\UPAI-de\appbrowseappview.bat
 
 )
 if !sel! EQU 2 (
@@ -124,7 +124,7 @@ set faname=PAPER-TCLEANER
 set uaname=SAEUBERER
 set afpath=TCLEANER-de
 echo "PAPER-TCLEANER" > app-name.tmp
-C:\PAPERSTUDIOS\Data\UPAI-de\appbrowseinstaller.cmd
+C:\PAPERSTUDIOS\Data\UPAI-de\appbrowseappview.bat
 
 )
 if !sel! EQU 3 (
