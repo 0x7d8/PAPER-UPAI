@@ -112,7 +112,7 @@ cls
 if !sel! EQU 1 (
 
 set faname=PAPER-PCKGS
-set uaname=PACKAGE MANAGER
+set uaname=PAKET MANAGER
 set afpath=0
 set sizemb=0,5
 set appdev=PAPER
