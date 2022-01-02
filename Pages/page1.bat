@@ -111,14 +111,16 @@ set /a no+=1
 cls
 if !sel! EQU 1 (
 
-set app=PAPER-PCKGS
+set faname=PAPER-PCKGS
+set uaname=PACKAGE MANAGER
 echo "PAPER-PCKGS" > app-name.tmp
 C:\PAPERSTUDIOS\Data\UPAI-de\appbrowseinstaller.cmd
 
 )
 if !sel! EQU 2 (
 
-set app=PAPER-TCLEANER
+set faname=PAPER-TCLEANER
+set uaname=SAEUBERER
 echo "PAPER-TCLEANER" > app-name.tmp
 C:\PAPERSTUDIOS\Data\UPAI-de\appbrowseinstaller.cmd
 
