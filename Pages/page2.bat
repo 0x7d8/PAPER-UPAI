@@ -74,7 +74,7 @@ exit /b
 :setmenu
 :: set menu caption
 set menu1=LEER        
-set menu2=LLER        
+set menu2=LEER        
 set menu3=LEER        
 set menu4=LEER        
 set menu5=LEER        
