@@ -47,7 +47,6 @@ exit /b
 :title
 echo.
 echo  PROGRAMM LISTE - SEITE 2
-echo  PAGE VERSION 2
 echo.  
 echo. 
 exit /b
