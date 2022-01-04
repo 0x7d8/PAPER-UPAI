@@ -127,7 +127,7 @@ if !sel! EQU 2 (
 set faname=PAPER-TCLEANER
 set uaname=SAEUBERER
 set afpath=TCLEANER-de
-set sizemb=0,2
+set sizemb=5,3
 set appdev=PAPER
 set cavers=210
 set cavert=1
