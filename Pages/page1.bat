@@ -129,7 +129,7 @@ set uaname=SAEUBERER
 set afpath=TCLEANER-de
 set sizemb=5,3
 set appdev=PAPER
-set cavers=210
+set cavers=230
 set cavert=1
 echo "PAPER-TCLEANER" > app-name.tmp
 C:\PAPERSTUDIOS\Data\UPAI-de\appbrowseappview.bat
