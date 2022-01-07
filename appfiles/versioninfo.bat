@@ -47,11 +47,11 @@ exit /b
 echo.
 echo  VERSION 255
 echo.
-echo  [+] VERSIONSINFO
+echo  [+] EINSTELLUNGS ENGINE
 echo      PAPER-INSTALLERS SUPPORT
 echo.
-echo  [i] "tempinstaler.bat" zu "tempinstaller.bat" umbenannt
-echo.
+echo  [i] BOOTER WIRD BALD AKTUALISIERT
+echo      MENU FRAME WIRD BALD AKTUALISIERT
 echo.
 echo  [-] 
 echo.
