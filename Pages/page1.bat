@@ -46,7 +46,7 @@ exit /b
 
 :title
 echo.
-echo  PROGRAMM LISTE - SEITE 1
+echo  [SEITE 01] PROGRAMM LISTE
 echo.  
 echo. 
 exit /b
@@ -117,6 +117,7 @@ set uaname=PAKET MANAGER
 set afpath=0
 set sizemb=0,5
 set appdev=PAPER
+set appframe=Rcode
 set cavers=100
 set cavert=1
 echo "PAPER-PCKGS" > app-name.tmp
@@ -131,6 +132,7 @@ set uaname=SAEUBERER
 set afpath=TCLEANER-de
 set sizemb=5,3
 set appdev=PAPER
+set appframe=SPcode200
 set cavers=230
 set cavert=1
 echo "PAPER-TCLEANER" > app-name.tmp
