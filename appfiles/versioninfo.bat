@@ -45,7 +45,7 @@ exit /b
 
 :title
 echo.
-echo  VERSION 255
+echo  VERSION 260
 echo.
 echo  [+] EINSTELLUNGS ENGINE
 echo      PAPER-INSTALLERS SUPPORT
