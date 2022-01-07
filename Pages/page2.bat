@@ -46,7 +46,7 @@ exit /b
 
 :title
 echo.
-echo  PROGRAMM LISTE - SEITE 2
+echo  [SEITE 2] PROGRAMM LISTE
 echo.  
 echo. 
 exit /b
