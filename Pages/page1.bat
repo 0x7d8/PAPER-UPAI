@@ -111,6 +111,7 @@ set /a no+=1
 cls
 if !sel! EQU 1 (
 
+set installerlink=https://github.com/rotvproHD/PAPER-PCKGS/releases/latest/download/installer.exe
 set faname=PAPER-PCKGS
 set uaname=PAKET MANAGER
 set afpath=0
@@ -124,6 +125,7 @@ C:\PAPERSTUDIOS\Data\UPAI-de\appbrowseappview.bat
 )
 if !sel! EQU 2 (
 
+set installerlink=https://github.com/rotvproHD/PAPER-TCLEANER/releases/latest/download/installer.exe
 set faname=PAPER-TCLEANER
 set uaname=SAEUBERER
 set afpath=TCLEANER-de
