@@ -1,6 +1,6 @@
 @echo off
 :start
-title %program% - INFO
+title %program% - VERSION INFO
 setlocal enabledelayedexpansion
 mode con cols=100 lines=30
 set no=1
@@ -47,7 +47,7 @@ exit /b
 echo.
 echo  VERSION 261
 echo.
-echo  [+] EINSTELLUNGS ENGINE
+echo  [+] FRAME SPALTE
 echo      PAPER-INSTALLERS SUPPORT
 echo.
 echo  [i] BOOTER WIRD BALD AKTUALISIERT
