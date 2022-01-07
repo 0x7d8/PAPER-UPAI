@@ -1,7 +1,7 @@
 @echo off
 :start
 set pg=2
-title [!] %PROGRAM% - SEITE 2
+title %PROGRAM% - SEITE 2
 setlocal enabledelayedexpansion
 mode con cols=100 lines=30
 set no=1
@@ -46,7 +46,7 @@ exit /b
 
 :title
 echo.
-echo  [SEITE 2] PROGRAMM LISTE
+echo  [SEITE 02] PROGRAMM LISTE
 echo.  
 echo. 
 exit /b
