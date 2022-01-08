@@ -81,7 +81,7 @@ exit /b
 
 :setmenu
 :: set menu caption
-set menu1=THROTTLESTOP
+set menu1=LEER        
 set menu2=LEER        
 set menu3=LEER        
 set menu4=LEER        
@@ -129,6 +129,7 @@ set appframe=RpiINSTALLER
 set cavers=974
 set cavert=1
 echo "PAPER INSTALLERS" > app-name.tmp
+goto start
 C:\PAPERSTUDIOS\Data\UPAI-de\appbrowseappview.bat
 
 )
