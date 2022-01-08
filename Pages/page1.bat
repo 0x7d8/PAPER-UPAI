@@ -7,9 +7,17 @@ mode con cols=100 lines=30
 set no=1
 :: properties
 set max=9
-set defcolor=0f
 set sel=1
+if %theme% EQU 1 (
+set selcolor=0f
+set defcolor=70
+goto skip2nd
+)
+if %theme% EQU 0 (
 set selcolor=8f
+set defcolor=0f
+)
+:skip2nd
 call :reset
 call :setmenu
 :refresh
