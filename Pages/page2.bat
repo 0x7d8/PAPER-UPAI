@@ -55,6 +55,8 @@ exit /b
 :title
 echo.
 echo  [SEITE 02] PROGRAMM LISTE
+echo.
+echo  [TYP] THIRD PARTY INSTALLERS
 echo.  
 echo. 
 exit /b
