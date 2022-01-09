@@ -55,6 +55,8 @@ exit /b
 :title
 echo.
 echo  [SEITE 01] PROGRAMM LISTE
+echo.
+echo  [TYP] FIRST PARTY APPS
 echo.  
 echo. 
 exit /b
