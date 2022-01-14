@@ -86,7 +86,7 @@ exit /b
 set menu1=PAKET MANGER
 set menu2=SAEUBERER   
 set menu3=PSTERM      
-set menu4=LEER        
+set menu4=P-SYNCER    
 set menu5=LEER        
 set menu6=LEER        
 set menu7=LEER        
@@ -169,7 +169,18 @@ C:\PAPERSTUDIOS\Data\UPAI-de\appbrowseappview.bat
 )
 if !sel! EQU 4 (
 
-goto start
+set installperm=false
+set installerlink=0
+set faname=PAPER-PSYNC
+set uaname=PSYNC
+set afpath=PSYNC-de
+set sizemb=0,0
+set appdev=PAPER
+set appframe=SPcode250
+set cavers=200
+set cavert=1
+echo "PAPER-PSTERM" > app-name.tmp
+C:\PAPERSTUDIOS\Data\UPAI-de\appbrowseappview.bat
 
 )
 if !sel! EQU 5 (
