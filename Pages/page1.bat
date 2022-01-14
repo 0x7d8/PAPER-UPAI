@@ -87,7 +87,7 @@ set menu1=PAKET MANGER
 set menu2=SAEUBERER   
 set menu3=PSTERM      
 set menu4=P-SYNCER    
-set menu5=LEER        
+set menu5=P-DOWNLOADER
 set menu6=LEER        
 set menu7=LEER        
 set menu8=ZURUECK     
@@ -177,15 +177,26 @@ set afpath=PSYNC-de
 set sizemb=0,0
 set appdev=PAPER
 set appframe=SPcode250
-set cavers=200
+set cavers=100
 set cavert=1
-echo "PAPER-PSTERM" > app-name.tmp
+echo "PAPER-PSYNC" > app-name.tmp
 C:\PAPERSTUDIOS\Data\UPAI-de\appbrowseappview.bat
 
 )
 if !sel! EQU 5 (
 
-goto start
+set installperm=false
+set installerlink=0
+set faname=PAPER-DOWNLOADER
+set uaname=DOWNLOADER
+set afpath=DOWNLOADER-de
+set sizemb=0,0
+set appdev=PAPER
+set appframe=SPcode250
+set cavers=200
+set cavert=1
+echo "PAPER-DOWNLOADER" > app-name.tmp
+C:\PAPERSTUDIOS\Data\UPAI-de\appbrowseappview.bat
 
 )
 if !sel! EQU 6 (
