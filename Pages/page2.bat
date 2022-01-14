@@ -83,7 +83,7 @@ exit /b
 
 :setmenu
 :: set menu caption
-set menu1=LEER        
+set menu1=THROTTLESTOP
 set menu2=LEER        
 set menu3=LEER        
 set menu4=LEER        
@@ -121,6 +121,7 @@ set /a no+=1
 cls
 if !sel! EQU 1 (
 
+set installperm=false
 set installerlink=https://github.com/rotvproHD/PAPER-INSTALLERS/raw/main/ThrottleStop.exe
 set faname=0
 set uaname=THROTTLESTOP
@@ -131,7 +132,6 @@ set appframe=RpiINSTALLER
 set cavers=974
 set cavert=1
 echo "PAPER INSTALLERS" > app-name.tmp
-goto start
 C:\PAPERSTUDIOS\Data\UPAI-de\appbrowseappview.bat
 
 )
