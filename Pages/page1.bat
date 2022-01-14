@@ -151,7 +151,17 @@ C:\PAPERSTUDIOS\Data\UPAI-de\appbrowseappview.bat
 )
 if !sel! EQU 3 (
 
-goto start
+set installerlink=https://github.com/rotvproHD/PAPER-PSTERM/releases/latest/download/installer.exe
+set faname=PAPER-PSTERM
+set uaname=PSTERM
+set afpath=PSTERM-de
+set sizemb=3,6
+set appdev=PAPER
+set appframe=SPcode250
+set cavers=200
+set cavert=1
+echo "PAPER-PSTERM" > app-name.tmp
+C:\PAPERSTUDIOS\Data\UPAI-de\appbrowseappview.bat
 
 )
 if !sel! EQU 4 (
