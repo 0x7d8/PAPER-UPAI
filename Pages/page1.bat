@@ -85,7 +85,7 @@ exit /b
 :: set menu caption
 set menu1=PAKET MANGER
 set menu2=SAEUBERER   
-set menu3=LEER        
+set menu3=PSTERM      
 set menu4=LEER        
 set menu5=LEER        
 set menu6=LEER        
