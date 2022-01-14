@@ -53,10 +53,10 @@ exit /b
 
 :title
 echo.
-echo  VERSION 270
+echo  VERSION 280
 echo.
 echo  [+] FRAME SPALTE
-echo      EINSTELLUNGEN
+echo      INSTALL LOCK SUPPORT
 echo.
 echo  [i] BOOTER WIRD BALD AKTUALISIERT
 echo.
