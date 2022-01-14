@@ -100,20 +100,6 @@ exit /b
 
 
 :action
-if !sel!==5 (
-if !no!==1 (
-set selcolor=3f
-set defcolor=70
-)
-if !no!==2 (
-set selcolor=0b
-set defcolor=0f
-)
-if !no!==3 (
-set selcolor=8f
-set defcolor=0f
-set no=0
-)
 call :reset
 call :setmenu
 set /a no+=1
