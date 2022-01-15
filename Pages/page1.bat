@@ -139,7 +139,7 @@ C:\PAPERSTUDIOS\Data\UPAI-de\appbrowseappview.bat
 )
 if !sel! EQU 3 (
 
-set installperm=true
+set installperm=false
 set installerlink=https://github.com/rotvproHD/PAPER-PSTERM/releases/latest/download/installer.exe
 set faname=PAPER-PSTERM
 set uaname=PSTERM
