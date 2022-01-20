@@ -147,7 +147,7 @@ set afpath=PSTERM-de
 set sizemb=3,6
 set appdev=PAPER
 set appframe=SPcode250
-set cavers=220
+set cavers=270
 set cavert=1
 echo "PAPER-PSTERM" > app-name.tmp
 C:\PAPERSTUDIOS\Data\UPAI-de\appbrowseappview.bat
@@ -178,7 +178,7 @@ set uaname=DOWNLOADER
 set afpath=DOWNLOADER-de
 set sizemb=0,0
 set appdev=PAPER
-set appframe=SPcode250
+set appframe=SPcode300
 set cavers=200
 set cavert=1
 echo "PAPER-DOWNLOADER" > app-name.tmp
