@@ -53,13 +53,13 @@ exit /b
 
 :title
 echo.
-echo  VERSION 281
+echo  VERSION 290
 echo.
-echo  [+] FRAME SPALTE
+echo  [+] DOWNLOAD TIMEOUT
 echo      INSTALL LOCK SUPPORT
 echo.
-echo  [i] BOOTER WIRD BALD AKTUALISIERT
-echo      "KEIN TEMP ORDNER" BUG GEFIXT
+echo  [i] "KEIN TEMP ORDNER" BUG GEFIXT
+echo.
 echo.
 echo  [-] 
 echo.
