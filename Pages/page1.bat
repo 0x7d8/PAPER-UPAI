@@ -108,6 +108,7 @@ cls
 if !sel! EQU 1 (
 
 set installperm=true
+set security=OFFIZIELL
 set installerlink=https://github.com/rotvproHD/PAPER-PCKGS/releases/latest/download/installer.exe
 set faname=PAPER-PCKGS
 set uaname=PAKET MANAGER
@@ -124,6 +125,7 @@ C:\PAPERSTUDIOS\Data\UPAI-de\appbrowseappview.bat
 if !sel! EQU 2 (
 
 set installperm=true
+set security=OFFIZIELL
 set installerlink=https://github.com/rotvproHD/PAPER-TCLEANER/releases/latest/download/installer.exe
 set faname=PAPER-TCLEANER
 set uaname=SAEUBERER
@@ -140,6 +142,7 @@ C:\PAPERSTUDIOS\Data\UPAI-de\appbrowseappview.bat
 if !sel! EQU 3 (
 
 set installperm=true
+set security=OFFIZIELL
 set installerlink=https://github.com/rotvproHD/PAPER-PSTERM/releases/latest/download/installer.exe
 set faname=PAPER-PSTERM
 set uaname=PSTERM
@@ -156,6 +159,7 @@ C:\PAPERSTUDIOS\Data\UPAI-de\appbrowseappview.bat
 if !sel! EQU 4 (
 
 set installperm=false
+set "security=N/A"
 set installerlink=0
 set faname=PAPER-PSYNC
 set uaname=PSYNC
