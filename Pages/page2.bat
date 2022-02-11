@@ -92,8 +92,8 @@ set menu6=LEER
 set menu7=LEER        
 set menu8=ZURUECK     
 set menu9=NAECHSTE    
-set left=
-set right=
+set "left=[ "
+set "right= ]"
 exit /b
 
 
