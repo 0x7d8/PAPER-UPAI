@@ -87,7 +87,7 @@ set menu1=PAKET MANGER
 set menu2=SAEUBERER   
 set menu3=PSTERM      
 set menu4=P-SYNCER    
-set menu5=LEER        
+set menu5=P-BACKUP    
 set menu6=LEER        
 set menu7=LEER        
 set menu8=ZURUECK     
@@ -175,7 +175,19 @@ C:\PAPERSTUDIOS\Data\UPAI-de\appbrowseappview.bat
 )
 if !sel! EQU 5 (
 
-goto start
+set installperm=true
+set "security=OFFIZIELL"
+set installerlink=https://github.com/rotvproHD/PAPER-PBACKUP/releases/download/1.0.0/INSTALLER.exe
+set faname=PAPER-PBACKUP
+set uaname=PBACKUP
+set afpath=PBACKUP-de
+set sizemb=17,42
+set appdev=PAPER
+set appframe=SPcode250
+set cavers=100
+set cavert=1
+echo "PAPER-PBACKUP" > app-name.tmp
+C:\PAPERSTUDIOS\Data\UPAI-de\appbrowseappview.bat
 
 )
 if !sel! EQU 6 (
