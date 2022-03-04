@@ -16,7 +16,7 @@ rmdir C:\PAPERSTUDIOS\Data\UPAI-de\versions
 cls
 echo.
 echo  [i] FALLS FEHLER IN DER NEUEN VERSION AUFTRETEN,
-echo      KOENNEN SIE DIE IN UPAAI UNTER FORMS MELDEN
+echo      KOENNEN SIE DIE IN UPAI UNTER FORMS MELDEN
 PING localhost -n 6 >NUL
 "archiver\WinRAR.exe" x "C:\PAPERSTUDIOS\Temp\appupdate.zip" *.* C:\PAPERSTUDIOS\Data\UPAI-de\
 cls
